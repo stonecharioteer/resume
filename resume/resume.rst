@@ -40,19 +40,19 @@ Experience
 ChainSafe
 -------------------------------
 
-**Engineering Manager / Lead Software Developer** | **Remote** | **November 2022 - February 2025**
+**Lead Software Developer** | **Bangalore** | **November 2022 - February 2025**
 
-* Led a cross-functional team of 4; provided technical and career mentorship, ran agile sprints, and interfaced with external stakeholders.
 * Spearheaded Python-based developer tooling for data pipelines, accounting, and blockchain event tracking using Dagster and Redis.
 * Evaluated and integrated GenAI tools (ChatGPT, LLaMA 3.1) to streamline internal workflows, automate reports, and improve project hygiene.
 * Built chat-based LLM assistants using Ollama and ChromaDB to track OKRs and assist in smart contract self-audits.
 * Developed dashboards and monitoring scripts for EVM wallet health, enabling cross-chain alerting.
 * Reviewed Rust contributions across teams and supported integration of libp2p in blockchain networking libraries.
+* Led a cross-functional team of 4; provided technical and career mentorship, ran agile sprints, and interfaced with external stakeholders.
 
 Merkle Science
 -------------------------------
 
-**Lead Software Developer** | **Bangalore** - **Remote** | **JULY 2021 - November 2022**
+**Lead Software Developer** | **Bangalore** | **JULY 2021 - November 2022**
 
 * Built and led a team focused on internal developer tooling and data infrastructure.
 * Designed and implemented Rust libraries for blockchain data ingestion, exposed to Python via PyO3.
