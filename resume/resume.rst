@@ -28,10 +28,9 @@ Key Skills
 
 * Languages: Python (primary), Rust, JavaScript
 * Frameworks & Tools: Flask, Express, Clap, Typer
-* Data & Infra: Airflow, Dagster, Redis, Docker, Kubernetes, Jenkins, GitHub Actions
-* LLM & GenAI: ChatGPT API, LLaMA 3.1, Ollama, LM Studio
+* Data & Infra: Airflow, Dagster, Redis, Docker, Kubernetes, Jenkins, GitHub Actions, Jupyterlab
+* LLM & GenAI: Agentic development with aider, OpenAI/ChatGPT, Local LLMs
 * DevOps & Ops: Linux (daily driver since 2005), CI/CD pipelines, Monitoring & Alerting
-* Other: ChromaDB, Substrate, Solidity, libp2p
 
 ------------------------------------
 Experience 
