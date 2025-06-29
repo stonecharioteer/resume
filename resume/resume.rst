@@ -36,6 +36,13 @@ Key Skills
 Experience 
 ------------------------------------
 
+Composio
+------------------------------
+Consultant | **Bangalore** | **May 2025**
+
+* Consulted with the company on scaling their AI tool solution.
+* Completely overhauled the python SDK for usability and MCP support.
+
 ChainSafe
 -------------------------------
 
