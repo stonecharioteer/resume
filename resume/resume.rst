@@ -64,6 +64,7 @@ Merkle Science
 * Designed and implemented Rust libraries for blockchain data ingestion, exposed to Python via PyO3.
 * Developed a CLI toolkit for data movement and quality metrics across data stores.
 * Led efforts to modularize and modernize Airflow DAGs; introduced Poetry-based packaging.
+* Maintained the Django-based application for the product backend.
 * Designed alerting and load-balancing systems for blockchain node monitoring.
 * Owned core Python utilities and mentored engineers on clean architecture and Rust adoption.
 
