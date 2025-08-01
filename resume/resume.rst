@@ -17,20 +17,22 @@ Resume - Vinay Keerthi K. T.
 
 -----
 
-Lead Python Developer with 10+ years of experience building scalable backend
-systems, data pipelines, and internal developer tooling. Proven track record
-leading teams, integrating Rust into Python workflows, and leveraging GenAI for
-engineering productivity.
+Lead Backend & Data Engineer with 12+ years of experience designing scalable systems,
+streaming data pipelines, and developer tooling. Proven track record of leading teams,
+integrating Rust into Python-based workflows, and leveraging GenAI and modern orchestration
+protocols (MCP) to boost engineering productivity and insight.
+
 
 ---------------------------
 Key Skills
 ---------------------------
 
 * Languages: Python (primary), Rust, JavaScript
-* Frameworks & Tools: Flask, Express, Clap, Typer
-* Data & Infra: Airflow, Dagster, Redis, Docker, Kubernetes, Jenkins, GitHub Actions, Jupyterlab
-* LLM & GenAI: Agentic development with aider, OpenAI/ChatGPT, Local LLMs
-* DevOps & Ops: Linux (daily driver since 2005), CI/CD pipelines, Monitoring & Alerting
+* Frameworks & Tools: Django, Express, Pydantic, FastAPI
+* Data & Infra: Kafka, Spark, Airflow, Redis
+* Cloud: AWS (S3, EC2, IAM), GCP (BigQuery, Cloud Function)
+* LLM & GenAI: MCP (Model Context Protocol), Ollama, Claude Code, LM-Studio, LangChain
+* DevOps & Ops: Linux (daily driver since 2005), Docker, K8s, CI/CD pipelines, Monitoring & Alerting (Prometheus, Grafana, InfluxDB)
 
 ------------------------------------
 Experience 
@@ -48,25 +50,38 @@ ChainSafe
 
 **Lead Software Developer** | **Bangalore** | **November 2022 - February 2025**
 
-* Spearheaded Python-based developer tooling for data pipelines, accounting, and blockchain event tracking using Dagster and Redis.
-* Evaluated and integrated GenAI tools (ChatGPT, LLaMA 3.1) to streamline internal workflows, automate reports, and improve project hygiene.
-* Built chat-based LLM assistants using Ollama and ChromaDB to track OKRs and assist in smart contract self-audits.
-* Developed dashboards and monitoring scripts for EVM wallet health, enabling cross-chain alerting.
-* Reviewed Rust contributions across teams and supported integration of libp2p in blockchain networking libraries.
-* Led a cross-functional team of 4; provided technical and career mentorship, ran agile sprints, and interfaced with external stakeholders.
+* Spearheaded Python-based developer tooling for data pipelines, accounting,
+  and blockchain event tracking using Dagster and Redis.
+* Evaluated and integrated **GenAI tools (ChatGPT, LLaMA 3.1)** to streamline
+  internal workflows, automate reports, and improve project hygiene.
+* Built chat-based LLM assistants using **Ollama** and **ChromaDB** to track
+  OKRs and assist in smart contract self-audits.
+* Developed dashboards and monitoring scripts for EVM wallet health, enabling
+  cross-chain alerting.
+* Reviewed Rust contributions across teams and supported integration of libp2p
+  in blockchain networking libraries.
+* Led a cross-functional team of 4; provided technical and career mentorship,
+  ran agile sprints, and interfaced with external stakeholders.
 
 Merkle Science
 -------------------------------
 
 **Lead Software Developer** | **Bangalore** | **JULY 2021 - November 2022**
 
-* Built and led a team focused on internal developer tooling and data infrastructure.
-* Designed and implemented Rust libraries for blockchain data ingestion, exposed to Python via PyO3.
-* Developed a CLI toolkit for data movement and quality metrics across data stores.
-* Led efforts to modularize and modernize Airflow DAGs; introduced Poetry-based packaging.
-* Maintained the Django-based application for the product backend.
-* Designed alerting and load-balancing systems for blockchain node monitoring.
-* Owned core Python utilities and mentored engineers on clean architecture and Rust adoption.
+* Built and led a team focused on internal data infrastructure and developer
+  tooling.
+* Prototyped a **Kafka + PySpark pipeline** to process high-velocity blockchain
+  transactions for compliance use cases.
+* Designed and maintained **Rust libraries** for blockchain ingestion,
+  including Python bindings via PyO3.
+* Created a CLI toolkit for data movement and quality assurance, integrating
+  with **Airflow** and cloud object stores.
+* Modernized **Airflow DAGs** using a modular, testable design with Poetry and
+  Docker-based dev environments.
+* Maintained the **Django** backend for customer-facing dashboards and
+  compliance rule engines.
+* Designed internal alerting and load-balancing systems for high-availability
+  blockchain node RPCs.
 
 -----------------
 VISA Inc.
@@ -74,9 +89,18 @@ VISA Inc.
 
 **Sr. Software Engineer - Data Platform** | **Bangalore** | **MAY 2019 - June 2021**
 
-* Led development of internal tools for server orchestration, onboarding, and PCI-compliant security automation.
-* Created dashboards to visualize remote team productivity during the COVID-19 transition.
-* Mentored interns and junior engineers; conducted Python workshops and code reviews across teams.
+* Led development of internal tools for secure server orchestration, onboarding
+  automation, and PCI-compliant infrastructure workflows.
+* Built a CLI-driven deployment framework for the Platform-as-a-Service (PaaS)
+  team, tailored to Visa’s internal systems — combining aspects of Ansible with
+  custom workflows.
+* Created dashboards to visualize engineering productivity and Git activity
+  across global teams during the COVID-19 transition.
+* Developed Python-based automation for CI/CD pipelines, audit logging, and
+  access provisioning.
+* Mentored junior engineers and interns; led Python workshops and cross-team
+  code review sessions to standardize engineering practices.
+
 
 GKN Aerospace India
 --------------------
@@ -95,9 +119,10 @@ Flipkart Internet Pvt. Ltd.
 ------------------------
 Public Speaking
 ------------------------
+* Fifth Elephant 2025 — Emcee for the AI Agentic Track
+* HasGeek Rootconf 2022 — `Is Rust Ready for Enterprise Adoption? (Birds of a Feather) <https://hasgeek.com/rootconf/is-rust-ready-for-enterprise-adoption/sub/is-rust-language-ready-for-enterprise-adoption-sum-54yCDYud7csgx3sbT9GAFd>`_
+* Bangalore Python Meetup 2022 — `Rust for Pythonistas <https://www.youtube.com/watch?v=62yfBiHrUis>`_ and `Web Security with Flask & OWASP <https://www.youtube.com/watch?v=xickNijifOs>`_
 * PyCon India 2019 — MicroPython: Building a Physical Inventory Search Engine
-* HasGeek Rootconf — `Is Rust Ready for Enterprise Adoption? (Birds of a Feather) <https://hasgeek.com/rootconf/is-rust-ready-for-enterprise-adoption/sub/is-rust-language-ready-for-enterprise-adoption-sum-54yCDYud7csgx3sbT9GAFd>`_
-* Bangalore Python Meetup — `Rust for Pythonistas <https://www.youtube.com/watch?v=62yfBiHrUis>`_ and `Web Security with Flask & OWASP <https://www.youtube.com/watch?v=xickNijifOs>`_
 
 ----------------------
 Other Experience
