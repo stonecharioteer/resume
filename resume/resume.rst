@@ -40,7 +40,7 @@ Experience
 
 Composio
 ------------------------------
-Consultant | **Bangalore** | **May 2025**
+Consultant | **Bangalore** | **May 2025 - June 2025**
 
 * Consulted with the company on scaling their AI tool solution.
 * Completely overhauled the python SDK for usability and MCP support.
@@ -115,6 +115,12 @@ Flipkart Internet Pvt. Ltd.
 **Bangalore** | **FEB 2014 - DEC 2015**
 
 * Developed automation tools in Python for content workflows and marketing campaigns.
+
+------------------------
+Side Projects
+------------------------
+* `GoForGo - An interactive way to learn Go <https://github.com/stonecharioteer/goforgo>`_
+* `Read the RFCs that Built the Internet <https://rfc.stonecharioteer.com>`_
 
 ------------------------
 Public Speaking
