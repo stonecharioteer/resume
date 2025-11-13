@@ -27,8 +27,8 @@ protocols (MCP) to boost engineering productivity and insight.
 Key Skills
 ---------------------------
 
-* Languages: Python (primary), Rust, JavaScript
-* Frameworks & Tools: Django, Express, Pydantic, FastAPI
+* Languages: Python (primary), Rust, JavaScript, Ruby
+* Frameworks & Tools: Django, Express, Pydantic, FastAPI, Ruby on Rails
 * Data & Infra: Kafka, Spark, Airflow, Redis
 * Cloud: AWS (S3, EC2, IAM), GCP (BigQuery, Cloud Function)
 * LLM & GenAI: MCP (Model Context Protocol), Ollama, Claude Code, LM-Studio, LangChain
@@ -37,6 +37,14 @@ Key Skills
 ------------------------------------
 Experience 
 ------------------------------------
+
+Chatwoot
+-------------------
+Consultant | **Bangalore; Remote** | **September 2025**
+
+* Worked on improving performance of the PostgreSQL database through remodelling the tables
+* Led triaging OSS issues and PRs.
+* Implemented new views to implement company-level analytics for chatwoot users.
 
 Composio
 ------------------------------
@@ -119,6 +127,7 @@ Flipkart Internet Pvt. Ltd.
 ------------------------
 Side Projects
 ------------------------
+* Two of my articles hit the HackerNews front page: `Ruby Blocks <https://tech.stonecharioteer.com/posts/2025/ruby-blocks/>`_ and `Some Smalltalk about Ruby Loops <https://tech.stonecharioteer.com/posts/2025/ruby-loops/>`_
 * `GoForGo - An interactive way to learn Go <https://github.com/stonecharioteer/goforgo>`_
 * `Read the RFCs that Built the Internet <https://rfc.stonecharioteer.com>`_
 
