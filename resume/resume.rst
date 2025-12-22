@@ -17,21 +17,23 @@ Resume - Vinay Keerthi K. T.
 
 -----
 
-Lead Backend & Data Engineer with 12+ years of experience designing scalable systems,
-streaming data pipelines, and developer tooling. Impeccable writer with skills to reach
-the frontpage of HackerNews *thrice* in a month with an acument to break things down
-and explain concepts with ease.
+Backend & Data Engineer with 12+ years of experience building high-performance systems
+in Rust and Python. Specialized in streaming data pipelines, CLI tooling, and blockchain
+infrastructure. Technical writer with articles reaching HackerNews frontpage *thrice* in
+a month, with an acumen to break down complex concepts with ease.
 
 ---------------------------
 Key Skills
 ---------------------------
 
-* Languages: Python (primary), Rust, JavaScript, Ruby
-* Frameworks & Tools: Django, Express, Pydantic, FastAPI, Ruby on Rails
-* Data & Infra: Kafka, Spark, Airflow, Redis
-* Cloud: AWS (S3, EC2, IAM), GCP (BigQuery, Cloud Function)
-* LLM & GenAI: MCP (Model Context Protocol), Ollama, Claude Code, LM-Studio, LangChain
-* DevOps & Ops: Linux (daily driver since 2005), Docker, K8s, CI/CD pipelines, Monitoring & Alerting (Prometheus, Grafana, InfluxDB)
+* Rust: Tokio (async runtime), Rocket (web framework), Clap (CLI), PyO3 (Python bindings), Serde, internal crates
+* Languages: Python, JavaScript, Ruby
+* Backend: Django, FastAPI, Pydantic, Express, Ruby on Rails
+* Data Engineering: Kafka, Spark (PySpark), Airflow, Redis
+* Blockchain: EVM, libp2p, transaction processing, node infrastructure
+* Cloud: AWS (S3, EC2, IAM), GCP (BigQuery, Cloud Functions)
+* DevOps: Linux (daily driver since 2005), Docker, Kubernetes, CI/CD, Prometheus, Grafana
+* AI/ML: MCP (Model Context Protocol), Ollama, Claude Code, LangChain
 
 ------------------------------------
 Experience 
@@ -40,15 +42,16 @@ Experience
 
 Chatwoot
 -------------------
-Engineering Lead | **Bangalore; Remote** | **September 2025**
+Backend Engineer | **Bangalore; Remote** | **September 2025 - Present**
 
-* Cut down response times by 40% through identifying unused indices in PostgreSQL database.
-* Led the team on the rollout of critical features, such as an advanced editor
-  to improve user experience, and a companies feature that showcased the
-  different domains users' customers would login from.
-* Set up generation of local data to test the database performance.
-* Led the cleanup of our Sentry dashboards, improving on-call response time and
-  lowering the cost of monitoring.
+* Cut down response times by 40% through **PostgreSQL** query optimization - analyzed
+  query plans, identified unused indices, and tuned database configuration.
+* Ramped up on **Ruby** in weeks and contributed to customer support features including
+  an advanced editor and company domain tracking for business intelligence.
+* Built data generation tools to benchmark **PostgreSQL** performance under load and
+  identify scaling bottlenecks.
+* Optimized Sentry dashboards and alerting configuration, improving on-call response
+  and reducing monitoring costs.
 
 Composio
 ------------------------------
@@ -60,46 +63,53 @@ Consultant | **Bangalore** | **May 2025 - June 2025**
 ChainSafe
 -------------------------------
 
-**Lead Software Developer** | **Bangalore** | **November 2022 - February 2025**
+**Software Developer** | **Bangalore** | **November 2022 - February 2025**
 
-* Spearheaded Python-based developer tooling for data pipelines, accounting,
+* Built **Rust implementation of a shared-state validator for Ethereum**, handling
+  consensus logic and state synchronization across distributed nodes.
+* Developed **libp2p client integrating with the Nym protocol** for privacy-preserving
+  network communication, implementing custom protocol handlers and message routing.
+* Reviewed **Rust contributions** across teams, focusing on **libp2p** integration
+  for blockchain networking libraries and async runtime optimization.
+* Built **CLI tools in Rust** for blockchain event monitoring and wallet management,
+  using **Tokio** for concurrent processing of multi-chain data.
+* Created internal **Rust crates** for shared blockchain utilities and data models
+  across multiple projects.
+* Developed Python-based developer tooling for data pipelines, accounting,
   and blockchain event tracking using Dagster and Redis.
-* Evaluated and integrated **GenAI tools (ChatGPT, LLaMA 3.1)** to streamline
-  internal workflows, automate reports, and improve project hygiene.
-* Built chat-based LLM assistants using **Ollama** and **ChromaDB** to track
-  OKRs and assist in smart contract self-audits.
 * Developed dashboards and monitoring scripts for EVM wallet health, enabling
-  cross-chain alerting.
-* Reviewed Rust contributions across teams and supported integration of libp2p
-  in blockchain networking libraries.
-* Led a cross-functional team of 4; provided technical and career mentorship,
-  ran agile sprints, and interfaced with external stakeholders.
+  cross-chain alerting and automated balance tracking.
+* Evaluated and integrated **GenAI tools (ChatGPT, LLaMA 3.1)** to streamline
+  internal workflows and automate reports.
+* Built chat-based LLM assistants using **Ollama** and **ChromaDB** for
+  smart contract analysis and project documentation.
 
 Merkle Science
 -------------------------------
 
-**Lead Software Developer** | **Bangalore** | **JULY 2021 - November 2022**
+**Software Developer** | **Bangalore** | **July 2021 - November 2022**
 
-* Built and led a team focused on internal data infrastructure and developer
-  tooling.
+* Designed and maintained **Rust libraries** for high-throughput blockchain ingestion
+  using **Tokio** for async processing and **Serde** for data serialization.
+* Built **Python bindings via PyO3** to expose Rust performance to Python data pipelines,
+  achieving 10x throughput improvements.
+* Created **CLI tooling with Clap** for data movement, quality assurance, and blockchain
+  node management, integrating with **Airflow** and cloud object stores.
 * Prototyped a **Kafka + PySpark pipeline** to process high-velocity blockchain
   transactions for compliance use cases.
-* Designed and maintained **Rust libraries** for blockchain ingestion,
-  including Python bindings via PyO3.
-* Created a CLI toolkit for data movement and quality assurance, integrating
-  with **Airflow** and cloud object stores.
+* Developed internal **Rust crates** for blockchain RPC clients with connection pooling
+  and retry logic using Tokio.
 * Modernized **Airflow DAGs** using a modular, testable design with Poetry and
   Docker-based dev environments.
 * Maintained the **Django** backend for customer-facing dashboards and
   compliance rule engines.
-* Designed internal alerting and load-balancing systems for high-availability
-  blockchain node RPCs.
+* Built alerting and load-balancing systems for high-availability blockchain node RPCs.
 
 -----------------
 VISA Inc.
 -----------------
 
-**Sr. Software Engineer - Data Platform** | **Bangalore** | **MAY 2019 - June 2021**
+**Sr. Software Engineer - Data Platform** | **Bangalore** | **May 2019 - June 2021**
 
 * Led development of internal tools for secure server orchestration, onboarding
   automation, and PCI-compliant infrastructure workflows.
@@ -117,21 +127,22 @@ VISA Inc.
 GKN Aerospace India
 --------------------
 
-**Software Engineer** | **Bangalore** | **DEC 2015 - MAY 2019**
+**Software Engineer** | **Bangalore** | **December 2015 - May 2019**
 
 * Built internal search tools, GPU-accelerated Python libraries, and managed CI/CD pipelines.
 
 Flipkart Internet Pvt. Ltd.
 -------------------------------
 
-**Bangalore** | **FEB 2014 - DEC 2015**
+**Bangalore** | **February 2014 - December 2015**
 
 * Developed automation tools in Python for content workflows and marketing campaigns.
 
 ------------------------
 Side Projects
 ------------------------
-* Two of my articles hit the HackerNews front page: `Ruby Blocks <https://tech.stonecharioteer.com/posts/2025/ruby-blocks/>`_ and `Some Smalltalk about Ruby Loops <https://tech.stonecharioteer.com/posts/2025/ruby-loops/>`_
+* **The Download Book** - `Book <https://the-download-book.stonecharioteer.com>`_ | `Code <https://github.com/stonecharioteer/download-manager>`_ - Building a comprehensive guide and Rust implementation exploring file download mechanisms, demonstrating **Tokio** async runtime, error handling patterns, and concurrent download strategies
+* Three of my articles hit the HackerNews front page: `Ruby Blocks <https://tech.stonecharioteer.com/posts/2025/ruby-blocks/>`_, `Some Smalltalk about Ruby Loops <https://tech.stonecharioteer.com/posts/2025/ruby-loops/>`_, and `Qtile Window Manager <https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/>`_
 * `GoForGo - An interactive way to learn Go <https://github.com/stonecharioteer/goforgo>`_
 * `Read the RFCs that Built the Internet <https://rfc.stonecharioteer.com>`_
 
@@ -147,7 +158,7 @@ Public Speaking
 Other Experience
 ----------------------
 
-* **FEB 2011 - FEB 2014** TVS Group & IISc internships — Worked on statistical quality control and composite material analysis using Python
+* **February 2011 - February 2014** TVS Group & IISc internships — Worked on statistical quality control and composite material analysis using Python
 
 -----
 
