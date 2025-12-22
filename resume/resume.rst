@@ -18,10 +18,9 @@ Resume - Vinay Keerthi K. T.
 -----
 
 Lead Backend & Data Engineer with 12+ years of experience designing scalable systems,
-streaming data pipelines, and developer tooling. Proven track record of leading teams,
-integrating Rust into Python-based workflows, and leveraging GenAI and modern orchestration
-protocols (MCP) to boost engineering productivity and insight.
-
+streaming data pipelines, and developer tooling. Impeccable writer with skills to reach
+the frontpage of HackerNews *thrice* in a month with an acument to break things down
+and explain concepts with ease.
 
 ---------------------------
 Key Skills
@@ -38,13 +37,18 @@ Key Skills
 Experience 
 ------------------------------------
 
+
 Chatwoot
 -------------------
-Consultant | **Bangalore; Remote** | **September 2025**
+Engineering Lead | **Bangalore; Remote** | **September 2025**
 
-* Worked on improving performance of the PostgreSQL database through remodelling the tables
-* Led triaging OSS issues and PRs.
-* Implemented new views to implement company-level analytics for chatwoot users.
+* Cut down response times by 40% through identifying unused indices in PostgreSQL database.
+* Led the team on the rollout of critical features, such as an advanced editor
+  to improve user experience, and a companies feature that showcased the
+  different domains users' customers would login from.
+* Set up generation of local data to test the database performance.
+* Led the cleanup of our Sentry dashboards, improving on-call response time and
+  lowering the cost of monitoring.
 
 Composio
 ------------------------------
@@ -113,7 +117,7 @@ VISA Inc.
 GKN Aerospace India
 --------------------
 
-**Sofware Engineer** | **Bangalore** | **DEC 2015 - MAY 2019**
+**Software Engineer** | **Bangalore** | **DEC 2015 - MAY 2019**
 
 * Built internal search tools, GPU-accelerated Python libraries, and managed CI/CD pipelines.
 
