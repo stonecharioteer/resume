@@ -30,7 +30,7 @@ Key Skills
 * Languages: Python, JavaScript, Ruby
 * Backend: Django, FastAPI, Pydantic, Express, Ruby on Rails
 * Data Engineering: Kafka, Spark (PySpark), Airflow, Redis
-* Blockchain: EVM, libp2p, transaction processing, node infrastructure
+* Blockchain: Dev Tooling
 * Cloud: AWS (S3, EC2, IAM), GCP (BigQuery, Cloud Functions)
 * DevOps: Linux (daily driver since 2005), Docker, Kubernetes, CI/CD, Prometheus, Grafana
 * AI/ML: MCP (Model Context Protocol), Ollama, Claude Code, LangChain
@@ -42,7 +42,7 @@ Experience
 
 Chatwoot
 -------------------
-Backend Engineer | **Bangalore; Remote** | **September 2025 - Present**
+Lead Engineer | **Bangalore; Remote** | **September 2025 - January 2026**
 
 * Cut down response times by 40% through **PostgreSQL** query optimization - analyzed
   query plans, identified unused indices, and tuned database configuration.
@@ -52,13 +52,6 @@ Backend Engineer | **Bangalore; Remote** | **September 2025 - Present**
   identify scaling bottlenecks.
 * Optimized Sentry dashboards and alerting configuration, improving on-call response
   and reducing monitoring costs.
-
-Composio
-------------------------------
-Consultant | **Bangalore** | **May 2025 - June 2025**
-
-* Consulted with the company on scaling their AI tool solution.
-* Completely overhauled the python SDK for usability and MCP support.
 
 ChainSafe
 -------------------------------
@@ -141,6 +134,7 @@ Flipkart Internet Pvt. Ltd.
 ------------------------
 Side Projects
 ------------------------
+* [**Merrilin.ai**](https://tech.stonecharioteer.com/)  - An AI Powered ebook Reader app that can help you read better and ask questions in a book without fear for spoilers, or across entire *series*.
 * **The Download Book** - `Book <https://the-download-book.stonecharioteer.com>`_ | `Code <https://github.com/stonecharioteer/download-manager>`_ - Building a comprehensive guide and Rust implementation exploring file download mechanisms, demonstrating **Tokio** async runtime, error handling patterns, and concurrent download strategies
 * Three of my articles hit the HackerNews front page: `Ruby Blocks <https://tech.stonecharioteer.com/posts/2025/ruby-blocks/>`_, `Some Smalltalk about Ruby Loops <https://tech.stonecharioteer.com/posts/2025/ruby-loops/>`_, and `Qtile Window Manager <https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/>`_
 * `GoForGo - An interactive way to learn Go <https://github.com/stonecharioteer/goforgo>`_

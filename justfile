@@ -4,7 +4,7 @@ alias b:= build
 set dotenv-load
 
 build:
-  rst2pdf -o build/resume.pdf resume/resume.rst
+  uvx rst2pdf -o build/resume.pdf resume/resume.rst
 
 release: build
   cp build/resume.pdf "/tmp/vinay-keerthi-resume-v$(date +%F).pdf"
