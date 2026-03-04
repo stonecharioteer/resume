@@ -134,7 +134,8 @@ Flipkart Internet Pvt. Ltd.
 ------------------------
 Side Projects
 ------------------------
-* [**Merrilin.ai**](https://tech.stonecharioteer.com/)  - An AI Powered ebook Reader app that can help you read better and ask questions in a book without fear for spoilers, or across entire *series*.
+* [**Merrilin.ai**](https://tech.stonecharioteer.com/posts/2026/merrilin/)  - An AI Powered ebook Reader app that can help you read better and ask questions in a book without fear for spoilers, or across entire *series*.
+* [Git Contributions](https://git.stonecharioteer.com) - History of my activity on Github.
 * **The Download Book** - `Book <https://the-download-book.stonecharioteer.com>`_ | `Code <https://github.com/stonecharioteer/download-manager>`_ - Building a comprehensive guide and Rust implementation exploring file download mechanisms, demonstrating **Tokio** async runtime, error handling patterns, and concurrent download strategies
 * Three of my articles hit the HackerNews front page: `Ruby Blocks <https://tech.stonecharioteer.com/posts/2025/ruby-blocks/>`_, `Some Smalltalk about Ruby Loops <https://tech.stonecharioteer.com/posts/2025/ruby-loops/>`_, and `Qtile Window Manager <https://tech.stonecharioteer.com/posts/2025/qtile-window-manager/>`_
 * `GoForGo - An interactive way to learn Go <https://github.com/stonecharioteer/goforgo>`_
