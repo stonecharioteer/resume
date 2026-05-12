@@ -1,0 +1,42 @@
+name: Build resume PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - resume/resume.rst
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-resume:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Build PDF
+        run: uvx rst2pdf -o assets/resume.pdf resume/resume.rst
+
+      - name: Commit rebuilt PDF
+        run: |
+          if git diff --quiet -- assets/resume.pdf; then
+            echo "assets/resume.pdf is already up to date"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/resume.pdf
+          git commit -m "chore: rebuild resume pdf"
+          git push
